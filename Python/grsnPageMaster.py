@@ -88,8 +88,6 @@ class grsnPageMaster(ptResponder):
 
         # for public version, add any pages specific only for that
         if IsPublic:
-            #this page is blank, so always load the second floors page instead
-            #pages += ["WellWindowFake"]
             pass
         # for non-public version, add all the remaining pages
         else:
